@@ -58,7 +58,7 @@ def show_detection_page():
     st.image("yoloimg2.jpg", use_container_width=True)
     st.write("Upload an image and the model will detect objects and display the results.")
 
-    YOUR_MODEL_PATH = r"C:\Users\Lenovo\Desktop\AI ML projects\Microsoft-6thAug\Falcon\HackByte_Dataset\runs\detect\train3\weights\best.pt"
+    YOUR_MODEL_PATH = r"best.pt"
 
     model = load_model(YOUR_MODEL_PATH)
     
